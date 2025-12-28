@@ -39,6 +39,7 @@ TESTS = [
     ("Mechanism Boundary Tests (7 tests)", "src/symbolic/mechanism_boundary_tests.py"),
     ("Adversarial Blow-up Tests (6 tests)", "src/symbolic/adversarial_blow_up_tests.py"),
     ("Gap Analysis & Solution (4 tests)", "src/symbolic/gap_analysis_and_solution.py"),
+    ("Convexity Verification (5 tests)", "src/symbolic/convexity_verification_careful.py"),
 ]
 
 
