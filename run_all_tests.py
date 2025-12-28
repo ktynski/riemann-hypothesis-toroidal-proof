@@ -27,6 +27,8 @@ TESTS = [
     ("Unified Proof (3 proofs)", "src/symbolic/unified_proof.py"),
     ("Rigorous Gap Closure", "src/symbolic/rigorous_gap_closure.py"),
     ("Formal Proof Analysis (100-digit)", "src/symbolic/formal_proof_analysis.py"),
+    ("1D Convexity Rigorous", "src/symbolic/convexity_rigorous.py"),
+    ("NS-RH Equivalence", "src/symbolic/navier_stokes_equivalence.py"),
 ]
 
 
