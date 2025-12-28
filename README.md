@@ -8,7 +8,7 @@ Zeros are **caustic singularities** forced to the **throat** by the Gram matrix 
 ---
 
 
-**Interactive Simulation:** https://cliffordtorusflow-71i2ukzf5-kristins-projects-24a742b6.vercel.app/
+**Interactive Simulation:** https://cliffordtorusflow-git-main-kristins-projects-24a742b6.vercel.app/
 
 
 ## The Central Insight: The Zeta Torus

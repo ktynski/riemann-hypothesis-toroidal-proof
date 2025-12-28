@@ -45,6 +45,10 @@ TESTS = [
     ("Complete Analytic Proof (5 lemmas)", "src/symbolic/complete_analytic_proof.py"),
     # Note: step3_analytic_proof.py shows individual Hadamard factors can be non-convex,
     # but the TOTAL function |ξ|² is convex (verified in convexity_verification_careful.py)
+    
+    # NS extension proofs
+    ("NS Uniform Density (6 tests)", "src/symbolic/ns_uniform_density.py"),
+    ("NS Topological Obstruction (6 tests)", "src/symbolic/ns_topological_obstruction.py"),
 ]
 
 
