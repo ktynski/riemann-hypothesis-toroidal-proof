@@ -32,6 +32,7 @@ TESTS = [
     ("NS 3D Clifford Flow (7 tests)", "src/symbolic/ns_3d_clifford_test.py"),
     ("Clifford-NS Formulation (6 tests)", "src/symbolic/clifford_ns_formulation.py"),
     ("Clifford-NS Solutions (5 tests)", "src/symbolic/clifford_ns_solution.py"),
+    ("Enstrophy Bound Proof (8 tests)", "src/symbolic/enstrophy_bound_proof.py"),
 ]
 
 
