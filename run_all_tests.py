@@ -49,6 +49,10 @@ TESTS = [
     # NS extension proofs
     ("NS Uniform Density (6 tests)", "src/symbolic/ns_uniform_density.py"),
     ("NS Topological Obstruction (6 tests)", "src/symbolic/ns_topological_obstruction.py"),
+    
+    # Final rigor proofs
+    ("RH Analytic Convexity (5 tests)", "src/symbolic/rh_analytic_convexity.py"),
+    ("NS ℝ³ Localization (6 tests)", "src/symbolic/ns_r3_localization.py"),
 ]
 
 
