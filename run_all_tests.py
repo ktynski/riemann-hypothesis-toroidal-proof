@@ -36,6 +36,8 @@ TESTS = [
     ("NS Exact Solutions (7 tests)", "src/symbolic/ns_exact_solution.py"),
     ("NS Density Argument (6 tests)", "src/symbolic/ns_density_argument.py"),
     ("NS Formal Theorem (6 tests)", "src/symbolic/ns_formal_theorem.py"),
+    ("Mechanism Boundary Tests (7 tests)", "src/symbolic/mechanism_boundary_tests.py"),
+    ("Adversarial Blow-up Tests (6 tests)", "src/symbolic/adversarial_blow_up_tests.py"),
 ]
 
 
