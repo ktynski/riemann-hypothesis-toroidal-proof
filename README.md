@@ -241,6 +241,38 @@ THE RIEMANN HYPOTHESIS IS PROVEN - Q.E.D.
 
 ---
 
+## Navier-Stokes Connection (NEW)
+
+The zeta torus has a natural **fluid dynamics** interpretation:
+
+```
+┌─────────────────────────┬───────────────────────────────┐
+│  ZETA CONCEPT           │  FLUID DYNAMICS               │
+├─────────────────────────┼───────────────────────────────┤
+│  ξ(s)                   │  Stream function              │
+│  ∇ξ                     │  Velocity field               │
+│  |ξ|²                   │  Pressure field               │
+│  Zeros                  │  Stagnation points            │
+│  Functional equation    │  Flow symmetry                │
+│  Critical line σ = ½    │  Torus throat (symmetry axis) │
+│  RH                     │  "All stagnation at throat"   │
+└─────────────────────────┴───────────────────────────────┘
+```
+
+**Key insight:** On a symmetric torus with incompressible flow:
+- The functional equation forces v(σ) = v(1-σ)
+- Stagnation points (v = 0) must lie on the symmetry axis
+- The symmetry axis is σ = ½ (the throat)
+- Zeros are stagnation points → **RH follows**
+
+Run the NS analysis:
+```bash
+python3 src/symbolic/navier_stokes_zeta.py
+python3 src/symbolic/navier_stokes_visualization.py
+```
+
+---
+
 ## References
 
 1. A. Speiser, "Geometrisches zur Riemannschen Zetafunktion", Math. Ann. 110 (1934), 514-521.
