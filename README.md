@@ -7,6 +7,10 @@ Zeros are **caustic singularities** forced to the **throat** by the Gram matrix 
 
 ---
 
+
+**Interactive Simulation:** https://cliffordtorusflow-71i2ukzf5-kristins-projects-24a742b6.vercel.app/
+
+
 ## The Central Insight: The Zeta Torus
 
 The critical strip forms a **torus** via the functional equation's σ ↔ 1-σ symmetry.
