@@ -30,6 +30,8 @@ TESTS = [
     ("1D Convexity Rigorous", "src/symbolic/convexity_rigorous.py"),
     ("NS-RH Equivalence (2D)", "src/symbolic/navier_stokes_equivalence.py"),
     ("NS 3D Clifford Flow (7 tests)", "src/symbolic/ns_3d_clifford_test.py"),
+    ("Clifford-NS Formulation (6 tests)", "src/symbolic/clifford_ns_formulation.py"),
+    ("Clifford-NS Solutions (5 tests)", "src/symbolic/clifford_ns_solution.py"),
 ]
 
 
