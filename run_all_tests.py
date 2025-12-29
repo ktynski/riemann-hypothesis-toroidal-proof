@@ -53,6 +53,9 @@ TESTS = [
     # Final rigor proofs
     ("RH Analytic Convexity (5 tests)", "src/symbolic/rh_analytic_convexity.py"),
     ("NS ℝ³ Localization (6 tests)", "src/symbolic/ns_r3_localization.py"),
+    
+    # Extended verification (strengthened)
+    ("RH Extended Verification (6 tests)", "src/symbolic/rh_extended_verification.py"),
 ]
 
 
