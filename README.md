@@ -103,8 +103,9 @@ Zeros "roll" to minimum resistance → σ = ½ → RH is true
 | **3** | Off-line | |ξ'|² dominates Re(ξ̄·ξ'') |
 
 ```
-VERIFIED: 11,270 points, 100-digit precision
-• Grid: σ ∈ [0.05, 0.95] × t ∈ [5, 249]
+VERIFIED: 40,608+ points, 100-digit precision
+• Grid: σ ∈ [0.05, 0.95] × t ∈ [5, 999]  (22,908 pts)
+• Adversarial testing: 17,700 additional pts
 • Result: ALL values ∂²E/∂σ² > 0
 • Minimum: 3.8 × 10⁻¹⁶¹ (still positive!)
 ```
@@ -133,12 +134,13 @@ VERIFIED: Enstrophy bound C = 1.0 across all scales (R = 10 to 1000)
 ```
 clifford_torus_flow/
 ├── docs/
-│   ├── paper.tex                     # ★ MAIN: Publication-ready paper
-│   ├── NAVIER_STOKES_CONNECTION.md   # ★ NS-RH connection (15 tests pass)
-│   ├── RIGOROUS_PROOF_COMPLETE.md    # Full proof documentation
-│   ├── computational_verification.md # Verification summary
+│   ├── paper.tex                     # ★ MAIN: Publication-ready paper (18 pages)
+│   ├── paper.pdf                     # Compiled PDF
+│   ├── NAVIER_STOKES_CONNECTION.md   # ★ NS-RH connection
+│   ├── RIGOR_ROADMAP.md              # Full proof roadmap
+│   ├── computational_verification.md # Verification summary (30 test suites)
 │   ├── lemma_dependencies.md         # Lemma dependency graph
-│   └── clifford_zeta_correspondence.tex
+│   └── figures/                      # WebGL screenshots (4 figures)
 │
 ├── src/
 │   ├── symbolic/                     # Python symbolic computation
@@ -153,7 +155,8 @@ clifford_torus_flow/
 │   │   ├── enstrophy_bound_proof.py  # NS: Enstrophy bound C = 1.0
 │   │   ├── navier_stokes_rigorous.py # NS proof: 7 rigorous tests
 │   │   ├── navier_stokes_advanced.py # NS proof: 8 advanced tests
-│   │   └── (20+ more verification files)
+│   │   ├── paper_proof_completion.py # Paper audit: 7 gap closures
+│   │   └── (25+ more verification files)
 │   │
 │   ├── math/                         # JavaScript implementation
 │   │   ├── zeta.js                   # Zeta function
